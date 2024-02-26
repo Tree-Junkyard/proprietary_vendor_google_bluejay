@@ -67,7 +67,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/bluejay/proprietary/system_ext/lib64/com.google.edgetpu_app_service-V2-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.google.edgetpu_app_service-V2-ndk.so \
     vendor/google/bluejay/proprietary/system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.google.edgetpu_vendor_service-V2-ndk.so \
     vendor/google/bluejay/proprietary/system_ext/lib64/libedgetpu_dba.google.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libedgetpu_dba.google.so \
-    vendor/google/bluejay/proprietary/system_ext/lib64/libhbmsvmanager_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libhbmsvmanager_jni.so \
     vendor/google/bluejay/proprietary/system_ext/lib64/libmediaadaptor.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmediaadaptor.so \
     vendor/google/bluejay/proprietary/system_ext/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so \
     vendor/google/bluejay/proprietary/system_ext/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.0.so \
@@ -76,46 +75,29 @@ PRODUCT_COPY_FILES += \
     vendor/google/bluejay/proprietary/system_ext/priv-app/EuiccSupportPixel/DKA_RC7_EVT.up:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/EuiccSupportPixel/DKA_RC7_EVT.up
 
 PRODUCT_PACKAGES += \
-    VZWAPNLib \
-    AppDirectedSMSService \
     CarrierSettings \
-    CarrierWifi \
-    ConnMO \
-    DCMO \
-    DMService \
-    DeviceIntelligenceNetworkPrebuilt \
     DevicePersonalizationPrebuiltPixel2021 \
     DiagMon \
     EuiccGoogle \
     HardwareInfo \
     HotwordEnrollmentOKGoogleFUSION \
     HotwordEnrollmentXGoogleFUSION \
-    OemDmTrigger \
     PixelCameraServicesB3 \
-    TetheringEntitlement \
-    WfcActivation \
     OemRilHookService \
-    CarrierSetup \
-    ConnectivityThermalPowerManager \
     EuiccGoogleOverlay \
     EuiccSupportPixel \
     EuiccSupportPixelPermissions \
-    HbmSVManager \
     LLKAgent \
-    MyVerizonServices \
     OemRilService \
-    RilConfigService \
     ShannonIms \
     ShannonQualifiedNetworksService \
     ShannonRcs \
-    grilservice \
     libhwinfo \
     RadioConfigLib \
     com.android.hotwordenrollment.common.util \
     com.google.android.camera.experimental2022_system \
     com.google.android.camera.extensions \
     com.google.android.camerax.extensions \
-    google-ril \
     oemrilhook \
     vendor.google.edgetpu_app_service@1.0-service
 PRODUCT_COPY_FILES += \
